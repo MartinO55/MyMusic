@@ -1,4 +1,5 @@
-Verse 1:
+# Verse 1
+
 I thought I knew what love was all about
 But you came and turned my world inside out
 I thought I had it all figured out
