@@ -12,7 +12,7 @@ function Card({ title, bandName, rating, albumArt }) {
 
   if (rating === "* * * * *") {
     console.log(bandName);
-    classes = styles.fiveStar;
+    classes = fiveStar;
   }
 
   return (
