@@ -1,34 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from "react";
+
+import { useState, useEffect } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [swChar, setChar] = useState();
+  const [count, setCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+
+  //fetch from the API
+  const fetchSWChar = async () => {
+    const response = await fetch(`https://swapi.dev/api/people/${inputNum}/`, {
+      headers: { Accept: "application/json" },
+    });
+    const data = await response.json();
+    const swChar = data;
+    return swChar;
+  };
+  // console.log(fetchSWChar());
+
+  useEffect(() => {
+    const wrapper = async () => {
+      setLoading(true);
+      try {
+        const swChar = await fetchSWChar();
+        setChar(swChar);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false); //So you need the loading componenet otherwise it returns an undefined and cant load
+      }
+    };
+
+    wrapper();
+  }, [count]);
+
+  //needs a handle click function
+  let inputNum = 1;
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <>
+      <input type="number" value={count}></input>
+      <button
+        onClick={() => {
+          setCount(inputNum);
+        }}
+      >
+        summon
+      </button>
+
+      <div>{loading ? <p>loading...</p> : <p>{swChar.name}</p>}</div>
+    </>
+  );
 }
 
-export default App
+export default App;
