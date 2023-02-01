@@ -1,9 +1,13 @@
 import { useState } from "react";
+import Counter from "./Counter";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <> </>;
+  return (
+    <>
+      {" "}
+      <Counter initial={0} />
+    </>
+  );
 }
 
 export default App;
