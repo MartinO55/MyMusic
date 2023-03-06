@@ -1,0 +1,121 @@
+{
+  "Albums": [
+    {
+      "Title": "I Will Survive",
+      "Bandname": "Bring Me the Pencils",
+      "AlbumArtSrc": "../AlbumArt/BringMethePencils.png",
+      "Description": " This band's album 'I Will Survive' showcases their energetic, punk-inspired sound and lyrics that tackle themes of resilience and overcoming adversity."
+    },
+
+    {
+      "Title": "Imperfect love",
+      "Bandname": "Sexy Saturday",
+      "AlbumArtSrc": "../AlbumArt/SexySaturday.png",
+      "Description": "With their album 'Imperfect Love', Sexy Saturday delivers a collection of sultry R&B tracks that explore the complexities of love and relationships."
+    },
+
+    {
+      "Title": "Dear Future",
+      "Bandname": "Rachel's Midnight Students",
+      "AlbumArtSrc": "../AlbumArt/RachelsMidnightStudents.png",
+      "Description": "This band's album 'Dear Future' features indie-pop songs with introspective lyrics and dreamy, atmospheric instrumentation."
+    },
+    {
+      "Title": "What You Did To Me",
+      "Bandname": "McStick",
+      "AlbumArtSrc": "../AlbumArt/McStick.png",
+      "Description": "'What You Did To Me' is a catchy, upbeat pop album from this artist, with infectious hooks and lyrics that explore the ups and downs of romantic relationships."
+    },
+    {
+      "Title": "White Lies",
+      "Bandname": "Newtsica",
+      "AlbumArtSrc": "../AlbumArt/Newtsica.png",
+      "Description": "With their album 'White Lies', Newtsica delivers a collection of indie rock tracks with introspective lyrics and driving rhythms."
+    },
+    {
+      "Title": "A set up",
+      "Bandname": "Rachel Lehcar",
+      "AlbumArtSrc": "../AlbumArt/RachelLehcar.png",
+      "Description": "This artist's album 'A Set Up' showcases her soulful voice and heartfelt lyrics, with a sound that draws inspiration from classic R&B and pop."
+    },
+    {
+      "Title": "I Have A Helper",
+      "Bandname": "England Panic",
+      "AlbumArtSrc": "../AlbumArt/EnglandPanic.png",
+      "Description": "'I Have A Helper' is an anthemic rock album from this band, with uplifting lyrics that encourage listeners to persevere through life's challenges."
+    },
+    {
+      "Title": "Cultivating Love",
+      "Bandname": "Purely Brown",
+      "AlbumArtSrc": "../AlbumArt/PurelyBrown.png",
+      "Description": "With their album 'Cultivating Love', Purely Brown delivers a collection of folksy, acoustic tracks that explore themes of love, loss, and personal growth."
+    },
+
+    {
+      "Title": "Electric Dreams",
+      "Bandname": "The Synthetix",
+      "AlbumArtSrc": "../AlbumArt/TheSynthetix.png",
+      "Description": "The Synthetix is a synthwave band that creates retro-inspired music with a futuristic twist. Their music is characterized by the use of vintage synthesizers, electronic drums, and dreamy melodies, creating a sound that is both nostalgic and forward-thinking."
+    },
+    {
+      "Title": "Broken Promises",
+      "Bandname": "The Heartbreakers",
+      "AlbumArtSrc": "../AlbumArt/TheHeartbreakers.png",
+      "Description": "The Heartbreakers is a pop punk band that sings about love, heartbreak, and teenage angst. Their music is characterized by the use of fast-paced drums, distorted guitars, and catchy hooks, creating a sound that is both energetic and relatable."
+    },
+    {
+      "Title": "Ethereal",
+      "Bandname": "Lunar Lullaby",
+      "AlbumArtSrc": "../AlbumArt/LunarLullaby.png",
+      "Description": "Lunar Lullaby is a dream pop band that creates atmospheric and ethereal music. Their music is characterized by the use of reverb-drenched guitars, shimmering synths, and haunting vocals, creating a sound that is both celestial and enchanting."
+    },
+    {
+      "Title": "Midnight City",
+      "Bandname": "The Neon Lights",
+      "AlbumArtSrc": "../AlbumArt/TheNeonLights.png",
+      "Description": "The Neon Lights is a synthpop band that draws inspiration from the neon-lit streets of the 80s. Their music is characterized by the use of retro synthesizers, pulsing basslines, and catchy choruses, creating a sound that is both nostalgic and danceable."
+    },
+    {
+      "Title": "Fading Memories",
+      "Bandname": "Echoes of Yesterday",
+      "AlbumArtSrc": "../AlbumArt/EchoesOfYesterday.png",
+      "Description": "Echoes of Yesterday is a post-rock band that creates emotional and introspective music. Their music is characterized by the use of soaring guitars, delicate piano melodies, and atmospheric soundscapes, creating a sound that is both contemplative and cathartic."
+    },
+    {
+      "Title": "Beyond the Horizon",
+      "Bandname": "Skyline Serenade",
+      "AlbumArtSrc": "../AlbumArt/SkylineSerenade.png",
+      "Description": "Skyline Serenade is an indie folk band that sings about nature, love, and the human experience. Their music is characterized by the use of acoustic guitars, warm harmonies, and introspective lyrics, creating a sound that is both organic and heartfelt."
+    },
+    {
+      "Title": "Lost in Translation",
+      "Bandname": "The Misunderstood",
+      "AlbumArtSrc": "../AlbumArt/TheMisunderstood.png",
+      "Description": "The Misunderstood is an alternative rock band that explores themes of isolation, identity, and belonging. Their music is characterized by the use of raw guitars, driving rhythms, and introspective lyrics, creating a sound that is both angsty and cathartic."
+    },
+    {
+      "Title": "Neon Nights",
+      "Bandname": "Electric Angels",
+      "AlbumArtSrc": "../AlbumArt/ElectricAngels.png",
+      "Description": "Electric Angels is a glam metal band that celebrates the excess and decadence of the 80s. Their music is characterized by the use of loud guitars, catchy choruses, and theatrical stage shows, creating a sound that is both bombastic and entertaining."
+    },
+    {
+      "Title": "Dreaming of You",
+      "Bandname": "The Starry Nights",
+      "AlbumArtSrc": "../AlbumArt/TheStarryNights.png",
+      "Description": "The Starry Nights is a dream pop band that creates atmospheric and ethereal music. Their music is characterized by the use of reverb-drenched guitars, shimmering synths, and dreamy vocals, creating a sound that is both hazy and surreal."
+    },
+    {
+      "Title": "Love & Despair",
+      "Bandname": "The Broken Hearts Club",
+      "AlbumArtSrc": "../AlbumArt/TheBrokenHeartsClub.png",
+      "Description": "The Broken Hearts Club is an emo band that explores the ups and downs of relationships. Their music is characterized by the use of emo-tional lyrics, driving rhythms, and cathartic breakdowns, creating a sound that is both raw and vulnerable."
+    },
+    {
+      "Title": "The Space Between Us",
+      "Bandname": "Cosmic Voyagers",
+      "AlbumArtSrc": "../AlbumArt/CosmicVoyagers.png",
+      "Description": "Cosmic Voyagers is a space rock band that explores the mysteries of the universe. Their music is characterized by the use of atmospheric guitars, trippy synths, and cosmic lyrics, creating a sound that is both psychedelic and mind-expanding."
+    }
+  ]
+}
