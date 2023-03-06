@@ -1,7 +1,12 @@
 import { useState } from "react";
+import CardHolder from "./CardHolder/CardHolder";
 
 function App() {
-  return <> </>;
+  return (
+    <>
+      <CardHolder />
+    </>
+  );
 }
 
 export default App;
