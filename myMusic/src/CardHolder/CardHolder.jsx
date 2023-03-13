@@ -16,7 +16,7 @@ const CardHolder = () => {
               key={index}
               title={album.Title}
               band={album.Bandname}
-              cover={album.AlbumArtSrc}
+              coverImgLink={album.AlbumArtSrc}
               description={album.Description}
             />
           );
