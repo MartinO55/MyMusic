@@ -17,7 +17,7 @@ const CardHolder = () => {
               title={album.Title}
               band={album.Bandname}
               cover={album.AlbumArtSrc}
-              description={album.description}
+              description={album.Description}
             />
           );
         })}
