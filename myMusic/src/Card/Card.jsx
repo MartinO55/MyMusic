@@ -10,13 +10,10 @@ const Card = ({ title, band, coverImgLink, description }) => {
     //so design for this is image only, but it pops up into a modal with more information on click
     <>
       <div className={styles.Card}>
-        <h3>{title}</h3>
-        <p>{band}</p>
-        <p>{description}</p>
         <img
           src={coverImgLink}
           className={styles.albumCover}
-          onClick={() => setModalOpen(true)}
+          onClick={() => setModalOpen(!isModalOpen)}
         ></img>
         {isModalOpen ? (
           <AlbumDetails

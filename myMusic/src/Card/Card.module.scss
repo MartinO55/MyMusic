@@ -1,11 +1,13 @@
 .Card {
-  margin: 1rem;
-  border: 2px solid black;
+  margin: 2.5rem;
   padding: 1rem;
   border-radius: 1rem;
   width: 9.74rem;
+  &:hover {
+    background-color: blueviolet;
+  }
 }
 
 .albumCover {
-  height: 10rem;
+  height: 13rem;
 }
