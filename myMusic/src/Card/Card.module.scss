@@ -3,11 +3,17 @@
   padding: 1rem;
   border-radius: 1rem;
   width: 9.74rem;
+  box-shadow: 0rem, 0rem, 3rem black;
   &:hover {
-    background-color: blueviolet;
+    background-color: grey;
+    box-shadow: 0rem, 0rem, 3rem black;
   }
 }
 
 .albumCover {
   height: 13rem;
+  box-shadow: 0rem, 0rem, 3rem black;
+  &:hover {
+    transform: rotateZ(2deg);
+  }
 }
