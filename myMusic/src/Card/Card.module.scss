@@ -6,15 +6,15 @@
 
   &:hover {
     background-color: rgb(189, 189, 189);
-    box-shadow: 0rem, 0rem, 30rem black;
   }
 }
 
 .albumCover {
   height: 13rem;
-  box-shadow: 0rem, 0rem, 3rem black;
+
   &:hover {
     transform: rotateZ(1deg);
+    box-shadow: 0rem 0rem 3rem black;
   }
 
   @keyframes flipOver {
