@@ -5,7 +5,7 @@
   width: 9.74rem;
 
   &:hover {
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(255, 0, 0);
   }
 }
 
@@ -14,11 +14,19 @@
 
   &:hover {
     transform: rotateZ(1deg);
-    box-shadow: 0rem 0rem 3rem black;
+    box-shadow: 0rem 0rem 2rem rgb(46, 46, 46);
+    cursor: pointer;
   }
+}
+
+.albumCoverFlipped {
+  height: 13rem;
+  animation-duration: 1s;
+  animation-name: flipOver;
 
   @keyframes flipOver {
     from {
+      transform: rotateY(0deg);
     }
     to {
       transform: rotateY(180deg);
