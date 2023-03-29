@@ -36,7 +36,6 @@
   animation-name: flipOver;
   animation-fill-mode: forwards;
   &:hover {
-    transform: rotateZ(1deg);
     box-shadow: 0rem 0rem 2rem black;
     cursor: pointer;
   }

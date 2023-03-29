@@ -1,10 +1,30 @@
 .AlbumDetailsCard {
   position: absolute;
-  color: whitesmoke;
-  background-color: black;
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  border: 2px solid white;
-  width: 15rem;
+  border: 2px solid rgb(0, 0, 0);
+  width: 20rem;
+  height: 20rem;
   z-index: 1;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .AlbumDetailsCard_Content {
+    background-color: rgba(226, 225, 225, 0.877);
+    transform: rotateY(-180deg);
+    height: 20rem;
+    padding: 0.75rem;
+  }
 }
