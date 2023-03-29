@@ -12,11 +12,21 @@
 
 .albumCover {
   height: 13rem;
+  animation-duration: 1s;
+  animation-name: flipBack;
 
   &:hover {
     transform: rotateZ(1deg);
-
+    box-shadow: 0rem 0rem 2rem black;
     cursor: pointer;
+  }
+  @keyframes flipBack {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
   }
 }
 
@@ -24,6 +34,12 @@
   height: 13rem;
   animation-duration: 1s;
   animation-name: flipOver;
+  animation-fill-mode: forwards;
+  &:hover {
+    transform: rotateZ(1deg);
+    box-shadow: 0rem 0rem 2rem black;
+    cursor: pointer;
+  }
 
   @keyframes flipOver {
     from {
