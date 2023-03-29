@@ -1,4 +1,10 @@
 .Header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 4rem;
+  padding-left: 1rem;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+  margin-bottom: 0.5rem;
+  z-index: 2;
 }
