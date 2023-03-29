@@ -4,9 +4,10 @@
   border-radius: 1rem;
   width: 9.74rem;
 
-  &:hover {
-    background-color: rgb(255, 0, 0);
-  }
+  //leaving this in because I love the shape of the card appearing on mouse over, even though it interferes with other elements
+  // &:hover {
+  //   background-color: rgb(255, 0, 0);
+  // }
 }
 
 .albumCover {
@@ -14,7 +15,7 @@
 
   &:hover {
     transform: rotateZ(1deg);
-    box-shadow: 0rem 0rem 2rem rgb(46, 46, 46);
+
     cursor: pointer;
   }
 }
